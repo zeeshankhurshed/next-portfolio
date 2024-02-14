@@ -1,0 +1,10 @@
+.span{
+    color: rgb(169, 196, 94);
+}
+
+@media(max-width:768px){
+    .bg{
+        display: none!important;
+    }
+
+}

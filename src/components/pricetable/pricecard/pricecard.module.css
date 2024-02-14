@@ -1,0 +1,28 @@
+.percent{
+    color: rgb(169, 196, 94);
+}
+.dollar{
+    color: rgb(169, 196, 94);
+}
+.icons{
+    color: rgb(169, 196, 94);
+    width: 1rem;
+    height: 1rem;
+}
+.red{
+    background-color: #7f1d1d;
+}
+.green{
+background-color: #14522d;
+}
+.blue{
+background-color: #1d3b8b;
+}
+
+
+@media(max-width:992px){
+    .card{
+       margin-top: 1rem!important;
+    }
+   
+}

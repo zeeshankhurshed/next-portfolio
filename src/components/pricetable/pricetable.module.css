@@ -1,0 +1,10 @@
+.span{
+    color: rgb(169, 196, 94);
+}
+
+
+@media(max-width:768px){
+    .container{
+        padding-top: 0!important;
+    }
+}

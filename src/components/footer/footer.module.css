@@ -1,0 +1,29 @@
+.logo{
+    font-size: 20px;
+    font-style: italic;
+}
+.spanText{
+    color: rgb(169, 196, 94);
+    
+
+}
+.mail{
+    color: rgb(169, 196, 94);
+}
+.icons{
+    color: rgb(169, 196, 94); 
+}
+.footer{
+    background-color: #000;
+}
+
+
+@media(max-width:768px){
+    .foot{
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+    .right{
+        text-align: center;
+    }
+}

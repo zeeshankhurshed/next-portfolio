@@ -1,0 +1,9 @@
+.date{
+    font-size: small;
+}
+.cal{
+    color: rgb(169, 196, 94);
+}
+.tech:hover{
+    color: rgb(169, 196, 94)!important;
+}

@@ -1,0 +1,126 @@
+.nav{
+    position: fixed;
+    background-color: rgba(29, 28, 28,.5);
+    width:100%;
+    z-index: 10000;
+    /* -webkit-backdrop-filter: blur(15px) brightness(75%) saturate(70%);
+    backdrop-filter: blur(15px) brightness(75%) saturate(70%); */
+    transition: all;
+    animation-duration: 300;
+}
+.nav {
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+  }
+
+  .nav.transparent-bg {
+    background-color: transparent;
+  }
+  
+  .nav.solid-bg {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the color and transparency as needed */
+  }
+  
+.navText{
+    /* height: 8vh; */
+    width: 80% ;
+    
+}
+.logo{
+    font-size: 20px;
+    font-style: italic;
+}
+.spanText{
+    color: rgb(169, 196, 94);
+    
+
+}
+.navul{
+    overflow: hidden;
+    margin: 150px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 600px;
+    text-align: center;
+   
+    }
+    .textul{
+        display: block;
+    }
+    .li{
+        display: table-cell; 
+        position: relative; 
+        padding: 15px 0;
+    }
+    .achr{
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        font-size: 1rem;
+        display: inline-block;
+        padding: 15px 20px;
+        position: relative;
+    }
+    .achr:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 4px;
+        left: 50%;
+        position: absolute;
+        background: rgb(169, 196, 94);
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+    .achr:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
+      .hamburger{
+        display: none;
+        
+      }
+      .button{
+       display: none;
+      }
+      .textulVisible {
+        display: flex;
+    }
+    
+    /* Define a CSS class to hide the nav */
+    /* .textulHidden {
+        display: none;
+    } */
+@media(max-width:768px){
+    .spanText{
+        font-size: 50px;
+      
+    }
+    .hamburger{
+        display: block;
+        
+      }
+      .textul {
+        flex-direction: column;
+        position: absolute;
+        top: 68px;
+        right: 0px;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+    }
+    .button{
+      top:4rem;
+      right: 1rem;
+    }
+     .textulHidden {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 300px) {
+	.ul {
+		margin-top: 40px;
+	}
+}

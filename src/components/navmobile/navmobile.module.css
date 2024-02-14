@@ -1,0 +1,68 @@
+.navmobile{
+    position: fixed;
+    top: 0;
+    transition: all;
+    animation-duration: 500;
+    z-index: 10000;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000;
+    opacity: .6;
+    width: 100vw ;
+    height: 8vh;
+
+}
+.ul{
+    color: #fefefe;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all;
+    animation-duration: 300;
+    animation-delay: 300;
+    width: 60%;
+    height: 100%;
+    padding: 12px;
+    z-index: 10006;
+    background-color: rgb(211, 42, 42);
+   list-style: none;
+}
+.li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+.mark{
+    top: 16px;
+    right: 24px!important;
+}
+
+.nav_link {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.nav_link:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    background: rgb(169, 196, 94);
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav_link:hover:after {
+    width: 100%;
+    left: 0;
+}

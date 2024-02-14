@@ -1,0 +1,14 @@
+
+
+@media(max-width:768px){
+  
+    .typewriter{
+        font-size: small;
+    }
+}
+
+@media(max-width:375px){
+    .typewriter{
+        font-size: xx-small;
+    }
+}

@@ -1,0 +1,99 @@
+.about{
+    margin-top: -4rem;
+    padding-top: 8rem;
+    
+}
+.aboutText{
+    width: 80%;
+    padding-top: 3rem;
+    /* display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); */
+}
+.web{
+    color: rgb(169, 196, 94);
+}
+.headingMini{
+    font-size: 17px;
+    color: #fefefe;
+    opacity: .75;
+}
+.headingPrimary{
+    margin-top: .6rem;
+    font-size: 40px!important; /* Default font size */
+    /* line-height: 3.5rem; */
+}
+.p{
+    font-size: 15px;
+    margin-top: 1.5rem;
+    /* opacity: .75;
+    color: #fefefe; */
+}
+.icons{
+    color: rgb(169, 196, 94);
+    width: 1rem;
+    height: 1rem;
+}
+.front{
+font-size: 12px;
+color: #fefefe;
+}
+.profwrap{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr)); 
+    gap: 1rem;
+    gap: 2rem;
+}
+.profinner{
+    background-color: rgb(169, 196, 94);
+}
+.num{
+    font-size: 40px;
+
+}
+.years{
+    font-size: 16px;
+}
+ 
+
+
+
+@media (min-width: 1024px) { /* lg breakpoint in Tailwind CSS */
+    .aboutText {
+      grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columns for large screens */
+    }
+    .headingPrimary{
+        font-size: 45px;
+    }
+    .prof {
+        margin-left: auto;
+      }
+  }
+@media(max-width:768px){
+    .about{
+        text-align: center;
+        margin-top: -4rem;
+        padding-top: 1rem;
+    }
+    .aboutText{        
+        padding-top: 5rem;
+        gap: 2rem;
+    
+    }
+    .headingPrimary{
+        font-size: 24px!important;
+    }
+}
+@media (min-width: 640px) {
+    .headingPrimary {
+      font-size: 30px;
+    }
+    .profwrap{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+@media(max-width:576px){
+    .aboutText{
+        padding-top: 7rem;
+    
+    }
+}

@@ -1,0 +1,12 @@
+
+.cardexp{
+    background-color: rgb(92, 90, 90);
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+.cardexp:hover{
+    background: linear-gradient(to right, #f12711, #f5af19);
+    
+    
+}
